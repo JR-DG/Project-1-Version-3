@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 1</title>
+
+    <!-- Materialize CDN -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Fonts Awesome -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55233fae23.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts will go here once we know which ones we'll use -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link href="./assets/nouislider.min.css" rel="stylesheet"> 
+<style>
+#slider {
+    width: 620px;
+    margin: 100px auto;
+    } 
+</style>        
+
+</head>
+<body>
+    <nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><i class="large material-icons invert_colors" id="invert">invert_colors</i></a> 
+      </div>
+     
+  </nav>
+  <div class="container">
+      
+    <div class="main wrapper">
+
+  <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Bender</a>
+        <a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="brand-logo"><i class="material-icons invert_colors"></i><invert_colors</i></a> 
+        
+      </div>
+    </nav>
+       
+        <h5 class='h5' id="h51">We Know All The Hotspots</h5>
+                <a><i class="medium material-icons ac_unit" id="ac">ac_unit</i><i class="medium material-icons brightness_5" id="brightness">brightness_5</i></a>
+                <a><i class="material-icons ac_unit" id="ac">ac_unit</i><i class="material-icons brightness_5" id="brightness">brightness_5</i></a>
+                <a><i class="large material-icons ac_unit" id="ac">ac_unit</i><i class="large material-icons brightness_5" id="brightness">brightness_5</i></a>
+                <a><i class="medium material-icons ac_unit" id="ac">ac_unit</i><i class="medium material-icons brightness_5" id="brightness">brightness_5</i></a>
+                <a><i class="material-icons ac_unit" id="ac">ac_unit</i><i class="material-icons brightness_5" id="brightness">brightness_5</i></a>
+                <a><i class="large material-icons ac_unit" id="ac">ac_unit</i><i class="large material-icons brightness_5" id="brightness">brightness_5</i></a>
+            
+                <div id="slider">Hot or Cold?</div>
+              <div class="container">
+                  
+                    <form id="search-site"  action='search' method='get'>
+                      <div class="input-group">
+                          
+                    <div class="input-field">
+                    <input id="search" type="search" name='q'>
+                    <label class="label-icon" for="search">
+                      <i class="material-icons" >search</i>
+                      
+                    </label>
+                    </div>
+                    
+                    <button type="submit" class="input-group-addon btn">search</button>
+                 
+                   
+                  
+                  </div>
+                    
+        <div class="split r">
+            <h1>INDOOR</h1>
+            <a href="#" class="button">EXPLORE</a>
+        </div>
+        
+        <div class="split l">
+            <h1>OUTDOOR</h1>
+            <a href="#" class="button">EXPLORE</a>  
+          </div> 
+      </div>
+    
+    </div>
+      </div>
+      <script src="./assets/nouislider.js"></script>
+<script>
+	var slider = document.getElementById('slider');
+	noUiSlider.create(slider, {
+		start: [5],
+		step: 1,
+		range: {
+			min: [0],
+			max: [10]
+		}
+	});
+	
+	slider.noUiSlider.on('hover', function( value ){
+		console.log(value);
+	});
+</script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>

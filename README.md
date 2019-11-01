@@ -1,1 +1,2 @@
-# Project-1-Version-3
+# project1
+first group project for UCLA coding bootcamp

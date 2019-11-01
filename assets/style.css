@@ -1,0 +1,318 @@
+
+
+body {
+ 
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    background: #000000;
+    background-attachment: white;
+   
+  }
+  
+  .fa-cloud-sun{
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+
+  
+  .container {
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+  
+  }
+  
+  #p1 {
+    position: relative;
+    background-color: #ffffff;
+    
+  }
+
+  .fas fa-cloud-sun {
+    shape-image-threshold: unset;
+    size: 9px;
+}
+
+  .h5 {
+    font-size: 1.64rem;
+    line-height: 1;
+    margin: 1.0933333333rem 0 .656rem 0;
+    color: #ffffff;
+    
+}
+  
+  .h5 {
+    text-align: center;
+    font-weight: 700;
+    position: center;
+    padding-top: 30px;
+    color: white;
+  
+    
+  }
+  .nav-wrapper {
+    background-color: #81D2C7;
+    color: #ffffff;
+    background-position: center;
+    max-width: 100%;
+    
+   
+  }
+  
+  .p {
+    text-align: center;
+    font-weight: 900;
+    position: center;
+    color: #ffffff
+    
+    
+    
+    
+  }
+  
+    #invert {
+    
+      color: #fff;
+      position: cover;
+      padding: 0%;
+      margin: 0%;
+      max-block-size: 500px
+    }
+    
+  
+
+.brand-logo {
+  position: center;
+  height: 100%;
+}
+  
+ 
+  
+.section {
+    
+    width: 100%;
+    height: 60%;
+    background: whitesmoke;
+    padding: 20px;
+    margin: 0px;
+    background-color: #ffffff;
+    
+    
+  }
+
+/*  
+ .full-width-tinted {
+    position: relative; 
+    background: #3DCCC7;
+    color: white;
+    font-size: 7rem;
+    z-index: 0;
+  } */
+   
+  .input-group{
+    display:table;
+    width:80%;
+    margin: 0 auto;
+  }
+  
+  .input-group .input-field,
+  .input-group .input-group-addon{
+    display:table;
+    width: 100%;
+  }
+  
+  /* .full-width-tinted:before {
+    content: "";
+    position: center;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    background:7;
+  }
+   */
+  
+  #ac {
+    
+    float: right;
+    height: 100%;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    color: #A5F2F3;
+   
+    
+  }
+  
+  
+
+  #brightness {
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+    padding: 0px;
+    color: #f9d71c;
+  }
+  
+  /* .range-field {
+    
+    position: relative;
+    width: 100%,
+    
+  }
+   */
+  
+  The slider itself
+  #range5 {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    
+    width: 70%; 
+    height: 7px; 
+    background-color: #ffffff; 
+    outline: none; 
+    opacity: 0.7; 
+    transition: opacity .2s; 
+  } 
+  
+  Mouse-over effects
+  .slider:hover {
+    opacity: 1;  
+  } 
+  
+  
+  
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  .main-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-display: #fff;
+    
+  }
+  
+  .button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    height: 1rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+    width: 15rem;
+    text-align: center;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: translateX(-50%);
+  }
+  
+  
+  
+  /* This is the split screen css */
+  
+  
+  .split.l .button:hover {
+    background-color: #333333;
+    border-color: #fff;
+  }
+  
+  .split.r .button:hover {
+    background-color: #333333;
+    border-color: #fff;
+  }
+  
+  
+  .split {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    overflow: hidden;
+  
+  }
+  
+  .split.l {
+    left:0;
+    background: url('https://images.pexels.com/photos/2685043/pexels-photo-2685043.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center center no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .split.l:before {
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .6;
+  }
+  
+  .split.r {
+    right:0;
+    background: url('https://images.pexels.com/photos/2311713/pexels-photo-2311713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  
+  .split.r:before {
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .6;
+    
+  }
+  
+  .button {
+    top: 40%;
+    bottom: 50%;
+    width: 8rem;
+  }
+  
+  .btn, .btn-large, .btn-small {
+    color: #fff;
+    background-color: #3DCCC7;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: progress;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+}
+  
+  @media(max-width: 800px) {
+    .h1 {
+      font-size: 6rem;
+      background-color: #000;
+    }};
+  @media only screen and (max-width: 992px){
+    .nav brand.logo {
+      -webkit-transform: translateX(0%);
+      transform:translateX(0%); 
+}};
+  
+ 
+
+  
